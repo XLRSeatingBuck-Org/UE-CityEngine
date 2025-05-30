@@ -75,7 +75,11 @@ Plugins/ArcGISMapsSDK
 # Cache files for the editor to use
 DerivedDataCache/*
 Content/StarterContent/*
+Content/UltimateFarming/*
+Content/WaterMaterials/*
+Content/PN_FoliageCollection/*
+Content/Chestnuts_Pack/*
+Content/ForestLandscape/*
+Content/GrassLandscape/*
 Content/References/*
 Content/Characters/*
-Content/CarConfigurator/*
-Content/VehicleVarietyPack/*
