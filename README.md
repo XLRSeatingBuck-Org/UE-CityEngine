@@ -1,6 +1,5 @@
-# 🌿 Unreal Engine Farming & Landscape Simulation
-
-A modular and realistic farming simulation environment built in **Unreal Engine 5**, featuring **PCG (Procedural Content Generation)** and **Datasmith**, enhanced with high-fidelity assets from the Unreal Engine **Fab Library**.
+# 🌿 Unreal Engine Driving Simulation
+A modular and realistic farming simulation environment built in **Unreal Engine 5**, featuring **PCG (Procedural Content Generation)** and **CityEngine**, enhanced with high-fidelity assets from the Unreal Engine **Fab Library**.
 
 ---
 
@@ -24,11 +23,13 @@ It combines procedural tools and curated Fab assets to allow scalable, dynamic w
 - Windows 10/11 (64-bit)
 - Epic Games Launcher
 - ~100 GB available disk space
+- Logitech G920 (optional)
+- CityEngine (optional)
 
 ### Required Plugins
 
 - **PCG** – for procedural content creation
-- **Datasmith** – for importing design assets
+- **Datasmith** – for importing CityEngine asset
 
 Enable both via **Edit → Plugins** inside the Unreal Editor.
 
@@ -57,14 +58,8 @@ You’ll need to manually download and import the following assets from **Fab**:
 
 ### Play in Editor
 
-1. Open the main map from `/Maps/`.
+1. Open the main map from `/Maps/Vehicle.umap`.
 2. Click **Play** to test the simulation.
-
-### Package for Distribution
-
-1. Go to **File → Package Project → Windows (64-bit)**
-2. Choose a target directory
-3. Wait for the build process to complete
 
 ---
 
@@ -79,9 +74,13 @@ You’ll need to manually download and import the following assets from **Fab**:
 
 ## 🧰 Troubleshooting
 
+Driving simulator doesn't receive input from G920,
+* Open Project Settings/ Raw Inputs and Registry Editor in WIndows to make sure the process id is matched
+* Make sure GHUB is open an running in the process
+* Make 
 | Problem | Solution |
 |--------|----------|
-| Missing materials or meshes | Ensure all Fab assets were imported to `/Content/FabAssets/` |
+| G920 input doesn't work | Make sure to install GHUB and have it open while running the R
 | PCG not generating properly | Recompile the graph and verify the plugin is active |
 | Datasmith content fails to load | Re-enable the plugin and restart Unreal |
 | Long shader compilation time | Clear derived data cache and verify GPU drivers |
@@ -112,13 +111,3 @@ This project is licensed under the MIT License.
 **Note:** Fab assets are subject to Epic's Fab Marketplace Terms of Service and cannot be redistributed outside your project.
 
 
-Plugin :
-PCG,
-Datasmith
-
-Unreal Engine Fab Library:
-Water Materials: https://www.fab.com/listings/063155ea-d9d2-4f29-b09f-33270b0bc861 
-temperate Vegetation: Foliage https://www.fab.com/listings/6a5ae8db-d80f-4b23-b276-87da390cfe56
-Ultimate Farming: https://www.fab.com/listings/b0041daf-350c-44b3-a23c-c58254f1d59d
-Grass Landscape: https://www.fab.com/listings/029abeaf-f109-4a66-9761-98ed53a511bb
-Forest Landscape: https://www.fab.com/listings/92c16f34-474e-4750-9ad2-a02b1aa9beb2
