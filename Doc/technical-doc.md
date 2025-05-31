@@ -1,29 +1,6 @@
-# Procedural Modelling with Unreal Engine and CityEngine
 
-**Immersive experience in the diverse landscapes of farmlands, woods, and suburban areas in Unreal Engine.**  
-[Download the project](https://github.com/XLRSeatingBuck-Org/UE-CityEngine)
 
----
-
-## Key Features
-
-This project integrates Geographical Information System (GIS) to build a 3D virtual environment in Unreal Engine.
-
-The chosen model area is **Corvallis, Oregon**, selected for its diverse landscapes — including natural areas (grasslands, woodlands, scrub), land uses (farmland, farmyards), and suburban housing. The ultimate goal is to showcase the integration workflow as a case study of how GIS and Graphics can support building a digital twin.
-
-### Real-World Reconstruction
-
-The simulation environment is reconstructed from real-world geographic data sourced from OpenStreetMap. We extract a collection of shape boundaries and attributes (e.g., land uses, height, shape type) to populate the 3D environment with assets and layouts that reflect the real-world data.
-
-This data-driven approach ensures that the environment is both believable and scalable — enabling rapid generation of suburban areas without compromising realism or detail.
-
-### Procedural Content Generation
-
-From suburban houses and powerlines to farmlands and woods, the entire environment is procedurally generated using rule-based modeling. This automates the generation of streets, houses, fences, and infrastructure — minimizing manual effort, speeding up iteration, and ensuring scalable worldbuilding.
-
----
-
-## Technical Workflow
+# Technical Workflow
 
 This project integrates two primary data layers:
 
