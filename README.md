@@ -16,7 +16,7 @@ This data-driven approach ensures that the environment is both believable and sc
 
 From suburban houses and powerlines to farmlands and woods, the entire environment is procedurally generated using rule-based modeling. This automates the generation of streets, houses, fences, and infrastructure — minimizing manual effort, speeding up iteration, and ensuring scalable worldbuilding.
 
-## 🛠 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@ You’ll need to manually download and import the following assets from **Fab**:
 
 ---
 
-## 🔧 Maintenance Guidelines
+##  Maintenance Guidelines
 
 - Keep Fab assets updated via Epic Launcher or manually re-import as needed.
 - Use **Fix Up Redirectors** in the Content Browser to clean up asset links.
@@ -74,7 +74,7 @@ You’ll need to manually download and import the following assets from **Fab**:
 
 ---
 
-## 🧰 Troubleshooting
+##  Troubleshooting
 
 The driving simulator doesn't receive input from the steering wheel
 * Open Project Settings/ Raw Inputs and Registry Editor in Windows to make sure the process id are matched
