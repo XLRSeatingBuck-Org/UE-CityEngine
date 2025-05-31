@@ -1,5 +1,5 @@
 # 🌿 Unreal Engine Driving Simulation
-A modular and realistic farming simulation environment built in **Unreal Engine 5**, featuring **PCG (Procedural Content Generation)** and **CityEngine**, enhanced with high-fidelity assets from the Unreal Engine **Fab Library**.
+A realistic driving simulation built with Procedural Content Generation in CityEngine and Unreal Engine 5. The driving simulator is connected to a G920 Logitech Steering Wheel featuring manual transmission mode. 
 
 ---
 
@@ -23,7 +23,8 @@ It combines procedural tools and curated Fab assets to allow scalable, dynamic w
 - Windows 10/11 (64-bit)
 - Epic Games Launcher
 - ~100 GB available disk space
-- Logitech G920 (optional)
+- Logitech G920 Steering Wheel and GHUB
+- Logitech Gearshifter (optional)
 - CityEngine (optional)
 
 ### Required Plugins
@@ -74,34 +75,19 @@ You’ll need to manually download and import the following assets from **Fab**:
 
 ## 🧰 Troubleshooting
 
-Driving simulator doesn't receive input from G920,
-* Open Project Settings/ Raw Inputs and Registry Editor in WIndows to make sure the process id is matched
-* Make sure GHUB is open an running in the process
-* Make 
-| Problem | Solution |
-|--------|----------|
-| G920 input doesn't work | Make sure to install GHUB and have it open while running the R
-| PCG not generating properly | Recompile the graph and verify the plugin is active |
-| Datasmith content fails to load | Re-enable the plugin and restart Unreal |
-| Long shader compilation time | Clear derived data cache and verify GPU drivers |
+The driving simulator doesn't receive input from the steering wheel
+* Open Project Settings/ Raw Inputs and Registry Editor in Windows to make sure the process id are matched
+* Make sure GHUB Software is open and running in the background
+* In the Settings for Windows, open the Setup USB Controller, find the Logitech Steering Wheel, here you can troubleshoot each button on the steering wheel as well as the gas, brake, and clutch pedals.
 
----
 
-## 👨‍💻 Contributing
-
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m "Add new feature"`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a Pull Request
 
 ---
 
 ## 📬 Support
 
 Questions or suggestions?  
-Contact: **your.email@example.com**  
-Or open an issue on [GitHub Issues](https://github.com/your-username/farming-simulation/issues)
+Contact: **quetran.tran1009@gmail.com*  
 
 ---
 
