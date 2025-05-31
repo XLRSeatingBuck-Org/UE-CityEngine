@@ -1,21 +1,22 @@
-# 🌿 Unreal Engine Driving Simulation
-A realistic driving simulation built with Procedural Content Generation in CityEngine and Unreal Engine 5. The driving simulator is connected to a G920 Logitech Steering Wheel featuring manual transmission mode. 
 
----
 
-## 📖 Project Overview and Purpose
+## Key Features
 
-This project aims to provide a customizable, high-quality farming and outdoor simulation environment ideal for:
+This project integrates Geographical Information System (GIS) to build a 3D virtual environment in Unreal Engine.
 
-- Game development prototyping
-- Landscape visualization
-- Environmental simulations
+The chosen model area is **Corvallis, Oregon**, selected for its diverse landscapes — including natural areas (grasslands, woodlands, scrub), land uses (farmland, farmyards), and suburban housing. The ultimate goal is to showcase the integration workflow as a case study of how GIS and Graphics can support building a digital twin.
 
-It combines procedural tools and curated Fab assets to allow scalable, dynamic world generation.
+### Real-World Reconstruction
 
----
+The simulation environment is reconstructed from real-world geographic data sourced from OpenStreetMap. We extract a collection of shape boundaries and attributes (e.g., land uses, height, shape type) to populate the 3D environment with assets and layouts that reflect the real-world data.
 
-## 🛠️ Setup Instructions
+This data-driven approach ensures that the environment is both believable and scalable — enabling rapid generation of suburban areas without compromising realism or detail.
+
+### Procedural Content Generation
+
+From suburban houses and powerlines to farmlands and woods, the entire environment is procedurally generated using rule-based modeling. This automates the generation of streets, houses, fences, and infrastructure — minimizing manual effort, speeding up iteration, and ensuring scalable worldbuilding.
+
+## 🛠 Setup Instructions
 
 ### Prerequisites
 
@@ -36,7 +37,7 @@ Enable both via **Edit → Plugins** inside the Unreal Editor.
 
 ---
 
-### 📥 Download and Import Fab Assets
+###  Download and Import Fab Assets
 
 You’ll need to manually download and import the following assets from **Fab**:
 
@@ -48,14 +49,14 @@ You’ll need to manually download and import the following assets from **Fab**:
 | **Grass Landscape** | Grass-covered terrain materials | [🔗 Download](https://www.fab.com/listings/029abeaf-f109-4a66-9761-98ed53a511bb) |
 | **Forest Landscape** | Large-scale forest terrain and textures | [🔗 Download](https://www.fab.com/listings/92c16f34-474e-4750-9ad2-a02b1aa9beb2) |
 
-#### 🚀 How to Import:
+#### How to Import:
 1. Download each `.uasset` package from the links above via Fab.
 2. Open your Unreal project.
 3. Drag-and-drop or use **Import → Content Folder** to add the downloaded asset folders to:
 
 ---
 
-## 🚀 Deployment Procedures
+##  Deployment Procedures
 
 ### Play in Editor
 
